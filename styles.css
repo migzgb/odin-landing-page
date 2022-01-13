@@ -1,0 +1,24 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: "Roboto";
+}
+
+.right-links {
+    color: #e5e7eb;
+    font-size: 18px;
+}
