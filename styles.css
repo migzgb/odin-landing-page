@@ -1,10 +1,23 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 a {
@@ -15,10 +28,25 @@ a {
 .logo {
     color: #f9faf8;
     font-size: 24px;
-    font-family: "Roboto";
+    font-weight : 800;
 }
 
 .right-links {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero-section {
+    background-color: #1f2937;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.hcontentleft, .hcontentright {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
