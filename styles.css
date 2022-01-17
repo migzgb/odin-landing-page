@@ -7,8 +7,8 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -31,7 +31,7 @@ a {
     font-weight : 800;
 }
 
-.right-links {
+.right-links, .hero-secondary {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -39,8 +39,11 @@ a {
 .hero-section {
     background-color: #1f2937;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    justify-content: center;
 }
 
 .hcontentleft, .hcontentright {
@@ -48,5 +51,33 @@ a {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-basis:0;
+    gap: 10px;
 }
 
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hcontentright {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hcontentleft {
+    flex-wrap: wrap;
+}
+
+.ctabutton {
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 10px;
+    width: 75px;
+    height: 20px;
+    display: flex;
+    justify-content: center; 
+}
