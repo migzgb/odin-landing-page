@@ -81,3 +81,30 @@ a {
     display: flex;
     justify-content: center; 
 }
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ind {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
