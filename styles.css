@@ -102,14 +102,13 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 25px;
 }
 
 .ind {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    border: 3px solid red;
-    justify-content: center;
 }
 
 .info-tile {
@@ -118,10 +117,10 @@ a {
     padding: 20px;
     width: 100px;
     height: 100px;
-    background-color: green;
 }
 
 .info-desc {
-    background-color: orange;
     width: 125px;
+    text-align: center;
+    font-size: 18px;
 }
