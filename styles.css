@@ -90,6 +90,7 @@ a {
     align-items: center;
     padding-top: 50px;
     gap: 50px;
+    padding-bottom: 75px;
 }
 
 .info-title {
@@ -123,4 +124,27 @@ a {
     width: 125px;
     text-align: center;
     font-size: 18px;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 75px 100px 75px;
+    gap: 20px
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    flex-wrap: wrap;
+}
+
+.from {
+    font-weight: 950;
+    justify-self: right;
+    align-self: flex-end;
 }
