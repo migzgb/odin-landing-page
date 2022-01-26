@@ -131,7 +131,7 @@ a {
     align-items: center;
     background-color: #E5E7EB;
     flex-direction: column;
-    padding: 75px 100px 75px;
+    padding: 75px 550px 75px;
     gap: 20px
 }
 
@@ -141,10 +141,41 @@ a {
     font-style: italic;
     color: #1f2937;
     flex-wrap: wrap;
+    text-align: justify;
 }
 
 .from {
     font-weight: 950;
     justify-self: right;
     align-self: flex-end;
+}
+
+.cta-section {
+    padding: 75px 100px 75px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cta-ribbon {
+    border-radius: 25px;
+    background: #3882F6;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cta-info {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-title {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight : 800;
 }
