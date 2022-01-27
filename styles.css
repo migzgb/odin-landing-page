@@ -1,3 +1,11 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
     font-family: Roboto;
     display: flex;
@@ -75,7 +83,7 @@ a {
 
 .ctabutton {
     background-color: #3882f6;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 10px;
     width: 75px;
     height: 20px;
@@ -131,7 +139,7 @@ a {
     align-items: center;
     background-color: #E5E7EB;
     flex-direction: column;
-    padding: 75px 550px 75px;
+    padding: 75px 100px 75px;
     gap: 20px
 }
 
@@ -154,7 +162,6 @@ a {
     padding: 75px 100px 75px;
     display: flex;
     justify-content: center;
-    align-content: center;
     flex-direction: column;
 }
 
@@ -165,8 +172,8 @@ a {
     height: 150px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
 .cta-info {
@@ -178,4 +185,23 @@ a {
     color: #e5e7eb;
     font-size: 24px;
     font-weight : 800;
+}
+
+.ctabutton-2 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    width: 75px;
+    height: 20px;
+    display: flex;
+    justify-content: center; 
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 20px 100px 20px;
+    color: #E5E7EB;
+    text-align: center;
 }
